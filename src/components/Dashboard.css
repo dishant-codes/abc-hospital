@@ -1,0 +1,52 @@
+.status {
+  display: flex;
+}
+.new_patients,
+.hospital_earn {
+  background-color: #ffff;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  color: #30373e;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 10px;
+}
+.new_patients > span,
+.hospital_earn > span {
+  font-size: 19px;
+  font-weight: 500;
+}
+.status-title {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.status-title > span {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.status-icon {
+  color: #379c94;
+  cursor: auto;
+}
+.charts {
+  margin-top: 2rem;
+  width: 700px;
+  height: 300px;
+}
+.chartjs-render-monitor {
+  height: 350px;
+}
+@media screen and (max-width: 800px) {
+  .status {
+    flex-direction: column;
+  }
+  .charts {
+    width: 100%;
+  }
+  .chartjs-render-monitor {
+    width: 100%;
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">abc-hospital</string>
+    <string name="title_activity_main">abc-hospital</string>
+    <string name="package_name">com.abchospital.app</string>
+    <string name="custom_url_scheme">com.abchospital.app</string>
+</resources>

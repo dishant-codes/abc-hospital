@@ -1,0 +1,13 @@
+{
+  "appId": "com.abchospital.app",
+  "appName": "abc-hospital",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

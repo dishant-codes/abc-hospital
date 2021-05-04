@@ -1,0 +1,55 @@
+.footer {
+  position: fixed;
+  bottom: -1px;
+  display: none;
+  width: 100%;
+}
+.footer_nav {
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #282e33;
+  color: white;
+  text-align: center;
+}
+.footer-navlinks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-navlinks > li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
+}
+@media screen and (max-width: 720px) {
+  .footer {
+    display: block;
+  }
+  .footer_items {
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 0px 5px;
+  }
+  .dr-cards {
+    padding-bottom: 4rem;
+  }
+  .dashboard {
+    padding-bottom: 5rem;
+  }
+  .login {
+    width: 46px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+  }
+  .nav-items::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s;
+  }
+}
