@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/abc-hospital/static/css/main.478cfce3.chunk.css",
+    "main.js": "/abc-hospital/static/js/main.4c89b7d2.chunk.js",
+    "main.js.map": "/abc-hospital/static/js/main.4c89b7d2.chunk.js.map",
+    "runtime-main.js": "/abc-hospital/static/js/runtime-main.e89a302d.js",
+    "runtime-main.js.map": "/abc-hospital/static/js/runtime-main.e89a302d.js.map",
+    "static/js/2.80266270.chunk.js": "/abc-hospital/static/js/2.80266270.chunk.js",
+    "static/js/2.80266270.chunk.js.map": "/abc-hospital/static/js/2.80266270.chunk.js.map",
+    "index.html": "/abc-hospital/index.html",
+    "static/css/main.478cfce3.chunk.css.map": "/abc-hospital/static/css/main.478cfce3.chunk.css.map",
+    "static/js/2.80266270.chunk.js.LICENSE.txt": "/abc-hospital/static/js/2.80266270.chunk.js.LICENSE.txt",
+    "static/media/cards.57507561.jpg": "/abc-hospital/static/media/cards.57507561.jpg",
+    "static/media/female_doctor.96636b49.png": "/abc-hospital/static/media/female_doctor.96636b49.png",
+    "static/media/male_doctor.86d7d789.png": "/abc-hospital/static/media/male_doctor.86d7d789.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e89a302d.js",
+    "static/js/2.80266270.chunk.js",
+    "static/css/main.478cfce3.chunk.css",
+    "static/js/main.4c89b7d2.chunk.js"
+  ]
+}
