@@ -1,0 +1,58 @@
+.dr-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Doctors-container {
+  height: 80vh;
+  background-color: transparent;
+}
+.Doctors-container > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #424242;
+  font-weight: 500;
+  padding: 2rem 0px;
+  margin-bottom: 2rem;
+}
+
+.dr-card {
+  padding: 20px 0px;
+  margin: 0px 2%;
+  text-align: center;
+  background-color: #ffff;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dr-card > h4 {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(0, 113, 158);
+  margin-bottom: 7px;
+  margin-top: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.dr-card > p {
+  font-size: 300;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.appoint-btn {
+  text-decoration: none;
+  background-color: #00b688;
+  color: #ffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.appoint-btn:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .dr-cards {
+    flex-direction: column;
+  }
+}

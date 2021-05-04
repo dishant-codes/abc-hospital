@@ -1,0 +1,62 @@
+.login-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.login-container > h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.log_email,
+.password {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.log_email > label,
+.password > label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 0px;
+  color: #575757;
+}
+
+.log_email > input,
+.password > input {
+  width: 100%;
+}
+
+.btn_login {
+  margin-top: 2rem;
+  padding: 10px 40px;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  color: #000;
+  transition: all 0.4s;
+  border: 1px solid black;
+}
+
+.btn_login:hover {
+  color: #ffff;
+  border: 1px solid #ffff;
+  background-color: #00b688;
+}
+
+@media screen and (max-width: 800px) {
+  .login-container > h1 {
+    font-size: 1.5rem;
+  }
+  .login-container {
+    max-width: 90%;
+  }
+}
